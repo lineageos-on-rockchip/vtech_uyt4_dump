@@ -1,0 +1,7 @@
+service slttrace /system/bin/slt_test
+    class core
+    oneshot
+    disabled
+
+on early-init
+    start slttrace
