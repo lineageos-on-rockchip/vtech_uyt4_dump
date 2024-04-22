@@ -1,0 +1,19 @@
+kernel=kernel
+ramdisk=ramdisk
+second=second.img
+page_size=2048
+dtbo=dtbo.img
+dt=dtb.img
+kernel_size=28809224
+ramdisk_size=26989460
+second_size=2633728
+dtb_offset=0x01f00000
+dtb_size=212102
+base_addr=0x10000000
+kernel_offset=0x00008000
+ramdisk_offset=0x01000000
+tags_offset=0x00000100
+dtbo_offset=0xf37bb000
+cmd_line='console=ttyFIQ0 androidboot.baseband=N/A androidboot.wificountrycode=US androidboot.veritymode=enforcing androidboot.hardware=rk30board androidboot.console=ttyFIQ0 androidboot.verifiedbootstate=orange firmware_class.path=/vendor/etc/firmware init=/init rootwait ro loop.max_part=7 buildvariant=user'
+board=""
+format=gzip

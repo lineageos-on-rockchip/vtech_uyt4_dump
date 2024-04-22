@@ -1,0 +1,104 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init scripts
+sh_binary {
+    name: "init.insmod.sh",
+    src: "bin/init.insmod.sh",
+    vendor: true,
+}
+
+// Init configuration files
+prebuilt_etc {
+    name: "init.connectivity.rc",
+    src: "etc/init.connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mount_all.rc",
+    src: "etc/init.mount_all.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.optee.rc",
+    src: "etc/init.optee.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.rk30board.bootmode.emmc.rc",
+    src: "etc/init.rk30board.bootmode.emmc.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.rk30board.bootmode.nvme.rc",
+    src: "etc/init.rk30board.bootmode.nvme.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.rk30board.bootmode.unknown.rc",
+    src: "etc/init.rk30board.bootmode.unknown.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.rk30board.environment.rc",
+    src: "etc/init.rk30board.environment.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.rk30board.rc",
+    src: "etc/init.rk30board.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.rk30board.usb.rc",
+    src: "etc/init.rk30board.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.rk3326.rc",
+    src: "etc/init.rk3326.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.rk3326.usb.rc",
+    src: "etc/init.rk3326.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.rockchip.rc",
+    src: "etc/init.rockchip.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+// fstab
+prebuilt_etc {
+    name: "fstab.rk30board",
+    src: "etc/fstab.rk30board",
+    vendor: true,
+}

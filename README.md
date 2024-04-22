@@ -1,0 +1,20 @@
+## rk3326_qgo-user 10 QD4A.200805.003 eng.epicbu.20231228.113918 release-keys
+- Manufacturer: leapfrog
+- Platform: rk3326
+- Codename: UYT4
+- Brand: LeapFrog4
+- Flavor: rk3326_qgo-user
+- Release Version: 10
+- Kernel Version: 4.19.193
+- Id: QD4A.200805.003
+- Incremental: eng.epicbu.20231228.113918
+- Tags: release-keys
+- CPU Abilist: armeabi-v7a,armeabi
+- A/B Device: false
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: rockchip/rk3326_qgo/rk3326_qgo:10/QD4A.200805.003/epicbuilder212281139:user/release-keys
+- OTA version: 
+- Branch: rk3326_qgo-user-10-QD4A.200805.003-eng.epicbu.20231228.113918-release-keys
+- Repo: leapfrog4_uyt4_dump
